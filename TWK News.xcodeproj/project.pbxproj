@@ -15,6 +15,7 @@
 		38F2DD7D2B6FE2EF0084206E /* TWK_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD7C2B6FE2EF0084206E /* TWK_NewsUITests.swift */; };
 		38F2DD7F2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD7E2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift */; };
 		38F2DD902B6FE4A60084206E /* TWKAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD8F2B6FE4A60084206E /* TWKAppDelegate.swift */; };
+		38F2DD942B700E5A0084206E /* SwiftFlex in Frameworks */ = {isa = PBXBuildFile; productRef = 38F2DD932B700E5A0084206E /* SwiftFlex */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F2DD942B700E5A0084206E /* SwiftFlex in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +190,9 @@
 			dependencies = (
 			);
 			name = "TWK News";
+			packageProductDependencies = (
+				38F2DD932B700E5A0084206E /* SwiftFlex */,
+			);
 			productName = "TWK News";
 			productReference = 38F2DD5D2B6FE2ED0084206E /* TWK News.app */;
 			productType = "com.apple.product-type.application";
@@ -260,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 38F2DD542B6FE2ED0084206E;
+			packageReferences = (
+				38F2DD922B700E5A0084206E /* XCRemoteSwiftPackageReference "SwiftFlex" */,
+			);
 			productRefGroup = 38F2DD5E2B6FE2ED0084206E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -665,6 +673,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		38F2DD922B700E5A0084206E /* XCRemoteSwiftPackageReference "SwiftFlex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/N3v1/SwiftFlex.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		38F2DD932B700E5A0084206E /* SwiftFlex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38F2DD922B700E5A0084206E /* XCRemoteSwiftPackageReference "SwiftFlex" */;
+			productName = SwiftFlex;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 38F2DD552B6FE2ED0084206E /* Project object */;
 }

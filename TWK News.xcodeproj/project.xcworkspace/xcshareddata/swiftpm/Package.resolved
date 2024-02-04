@@ -1,0 +1,15 @@
+{
+  "originHash" : "0a1fdbb975f199e70da8628fb5f69a5a7aaa91d7dd0c51ebe111474e0c649d07",
+  "pins" : [
+    {
+      "identity" : "swiftflex",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/N3v1/SwiftFlex.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "98cdc2329c5b98e224131a5a0e4380debf4b5cbd"
+      }
+    }
+  ],
+  "version" : 3
+}
