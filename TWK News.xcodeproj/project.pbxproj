@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38F2DD612B6FE2ED0084206E /* TWK_NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD602B6FE2ED0084206E /* TWK_NewsApp.swift */; };
+		38F2DD632B6FE2ED0084206E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD622B6FE2ED0084206E /* ContentView.swift */; };
+		38F2DD652B6FE2EF0084206E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F2DD642B6FE2EF0084206E /* Assets.xcassets */; };
+		38F2DD692B6FE2EF0084206E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F2DD682B6FE2EF0084206E /* Preview Assets.xcassets */; };
+		38F2DD732B6FE2EF0084206E /* TWK_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD722B6FE2EF0084206E /* TWK_NewsTests.swift */; };
+		38F2DD7D2B6FE2EF0084206E /* TWK_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD7C2B6FE2EF0084206E /* TWK_NewsUITests.swift */; };
+		38F2DD7F2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD7E2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38F2DD6F2B6FE2EF0084206E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38F2DD552B6FE2ED0084206E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38F2DD5C2B6FE2ED0084206E;
+			remoteInfo = "TWK News";
+		};
+		38F2DD792B6FE2EF0084206E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38F2DD552B6FE2ED0084206E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38F2DD5C2B6FE2ED0084206E;
+			remoteInfo = "TWK News";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38F2DD5D2B6FE2ED0084206E /* TWK News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TWK News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F2DD602B6FE2ED0084206E /* TWK_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWK_NewsApp.swift; sourceTree = "<group>"; };
+		38F2DD622B6FE2ED0084206E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38F2DD642B6FE2EF0084206E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38F2DD662B6FE2EF0084206E /* TWK_News.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TWK_News.entitlements; sourceTree = "<group>"; };
+		38F2DD682B6FE2EF0084206E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38F2DD6E2B6FE2EF0084206E /* TWK NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TWK NewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F2DD722B6FE2EF0084206E /* TWK_NewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWK_NewsTests.swift; sourceTree = "<group>"; };
+		38F2DD782B6FE2EF0084206E /* TWK NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TWK NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F2DD7C2B6FE2EF0084206E /* TWK_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWK_NewsUITests.swift; sourceTree = "<group>"; };
+		38F2DD7E2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWK_NewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38F2DD5A2B6FE2ED0084206E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F2DD6B2B6FE2EF0084206E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F2DD752B6FE2EF0084206E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38F2DD542B6FE2ED0084206E = {
+			isa = PBXGroup;
+			children = (
+				38F2DD5F2B6FE2ED0084206E /* TWK News */,
+				38F2DD712B6FE2EF0084206E /* TWK NewsTests */,
+				38F2DD7B2B6FE2EF0084206E /* TWK NewsUITests */,
+				38F2DD5E2B6FE2ED0084206E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38F2DD5E2B6FE2ED0084206E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38F2DD5D2B6FE2ED0084206E /* TWK News.app */,
+				38F2DD6E2B6FE2EF0084206E /* TWK NewsTests.xctest */,
+				38F2DD782B6FE2EF0084206E /* TWK NewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38F2DD5F2B6FE2ED0084206E /* TWK News */ = {
+			isa = PBXGroup;
+			children = (
+				38F2DD602B6FE2ED0084206E /* TWK_NewsApp.swift */,
+				38F2DD622B6FE2ED0084206E /* ContentView.swift */,
+				38F2DD642B6FE2EF0084206E /* Assets.xcassets */,
+				38F2DD662B6FE2EF0084206E /* TWK_News.entitlements */,
+				38F2DD672B6FE2EF0084206E /* Preview Content */,
+			);
+			path = "TWK News";
+			sourceTree = "<group>";
+		};
+		38F2DD672B6FE2EF0084206E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38F2DD682B6FE2EF0084206E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38F2DD712B6FE2EF0084206E /* TWK NewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				38F2DD722B6FE2EF0084206E /* TWK_NewsTests.swift */,
+			);
+			path = "TWK NewsTests";
+			sourceTree = "<group>";
+		};
+		38F2DD7B2B6FE2EF0084206E /* TWK NewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38F2DD7C2B6FE2EF0084206E /* TWK_NewsUITests.swift */,
+				38F2DD7E2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift */,
+			);
+			path = "TWK NewsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38F2DD5C2B6FE2ED0084206E /* TWK News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F2DD822B6FE2EF0084206E /* Build configuration list for PBXNativeTarget "TWK News" */;
+			buildPhases = (
+				38F2DD592B6FE2ED0084206E /* Sources */,
+				38F2DD5A2B6FE2ED0084206E /* Frameworks */,
+				38F2DD5B2B6FE2ED0084206E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TWK News";
+			productName = "TWK News";
+			productReference = 38F2DD5D2B6FE2ED0084206E /* TWK News.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38F2DD6D2B6FE2EF0084206E /* TWK NewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F2DD852B6FE2EF0084206E /* Build configuration list for PBXNativeTarget "TWK NewsTests" */;
+			buildPhases = (
+				38F2DD6A2B6FE2EF0084206E /* Sources */,
+				38F2DD6B2B6FE2EF0084206E /* Frameworks */,
+				38F2DD6C2B6FE2EF0084206E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38F2DD702B6FE2EF0084206E /* PBXTargetDependency */,
+			);
+			name = "TWK NewsTests";
+			productName = "TWK NewsTests";
+			productReference = 38F2DD6E2B6FE2EF0084206E /* TWK NewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38F2DD772B6FE2EF0084206E /* TWK NewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F2DD882B6FE2EF0084206E /* Build configuration list for PBXNativeTarget "TWK NewsUITests" */;
+			buildPhases = (
+				38F2DD742B6FE2EF0084206E /* Sources */,
+				38F2DD752B6FE2EF0084206E /* Frameworks */,
+				38F2DD762B6FE2EF0084206E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38F2DD7A2B6FE2EF0084206E /* PBXTargetDependency */,
+			);
+			name = "TWK NewsUITests";
+			productName = "TWK NewsUITests";
+			productReference = 38F2DD782B6FE2EF0084206E /* TWK NewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38F2DD552B6FE2ED0084206E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					38F2DD5C2B6FE2ED0084206E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					38F2DD6D2B6FE2EF0084206E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 38F2DD5C2B6FE2ED0084206E;
+					};
+					38F2DD772B6FE2EF0084206E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 38F2DD5C2B6FE2ED0084206E;
+					};
+				};
+			};
+			buildConfigurationList = 38F2DD582B6FE2ED0084206E /* Build configuration list for PBXProject "TWK News" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38F2DD542B6FE2ED0084206E;
+			productRefGroup = 38F2DD5E2B6FE2ED0084206E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38F2DD5C2B6FE2ED0084206E /* TWK News */,
+				38F2DD6D2B6FE2EF0084206E /* TWK NewsTests */,
+				38F2DD772B6FE2EF0084206E /* TWK NewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38F2DD5B2B6FE2ED0084206E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F2DD692B6FE2EF0084206E /* Preview Assets.xcassets in Resources */,
+				38F2DD652B6FE2EF0084206E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F2DD6C2B6FE2EF0084206E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F2DD762B6FE2EF0084206E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38F2DD592B6FE2ED0084206E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F2DD632B6FE2ED0084206E /* ContentView.swift in Sources */,
+				38F2DD612B6FE2ED0084206E /* TWK_NewsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F2DD6A2B6FE2EF0084206E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F2DD732B6FE2EF0084206E /* TWK_NewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F2DD742B6FE2EF0084206E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F2DD7F2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift in Sources */,
+				38F2DD7D2B6FE2EF0084206E /* TWK_NewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38F2DD702B6FE2EF0084206E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38F2DD5C2B6FE2ED0084206E /* TWK News */;
+			targetProxy = 38F2DD6F2B6FE2EF0084206E /* PBXContainerItemProxy */;
+		};
+		38F2DD7A2B6FE2EF0084206E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38F2DD5C2B6FE2ED0084206E /* TWK News */;
+			targetProxy = 38F2DD792B6FE2EF0084206E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38F2DD802B6FE2EF0084206E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38F2DD812B6FE2EF0084206E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		38F2DD832B6FE2EF0084206E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TWK News/TWK_News.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TWK News/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.TWK-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38F2DD842B6FE2EF0084206E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TWK News/TWK_News.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TWK News/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.TWK-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38F2DD862B6FE2EF0084206E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.TWK-NewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWK News.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TWK News";
+			};
+			name = Debug;
+		};
+		38F2DD872B6FE2EF0084206E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.TWK-NewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWK News.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TWK News";
+			};
+			name = Release;
+		};
+		38F2DD892B6FE2EF0084206E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.TWK-NewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TWK News";
+			};
+			name = Debug;
+		};
+		38F2DD8A2B6FE2EF0084206E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.TWK-NewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TWK News";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38F2DD582B6FE2ED0084206E /* Build configuration list for PBXProject "TWK News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F2DD802B6FE2EF0084206E /* Debug */,
+				38F2DD812B6FE2EF0084206E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F2DD822B6FE2EF0084206E /* Build configuration list for PBXNativeTarget "TWK News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F2DD832B6FE2EF0084206E /* Debug */,
+				38F2DD842B6FE2EF0084206E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F2DD852B6FE2EF0084206E /* Build configuration list for PBXNativeTarget "TWK NewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F2DD862B6FE2EF0084206E /* Debug */,
+				38F2DD872B6FE2EF0084206E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F2DD882B6FE2EF0084206E /* Build configuration list for PBXNativeTarget "TWK NewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F2DD892B6FE2EF0084206E /* Debug */,
+				38F2DD8A2B6FE2EF0084206E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38F2DD552B6FE2ED0084206E /* Project object */;
+}
