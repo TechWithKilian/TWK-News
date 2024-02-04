@@ -14,6 +14,7 @@
 		38F2DD732B6FE2EF0084206E /* TWK_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD722B6FE2EF0084206E /* TWK_NewsTests.swift */; };
 		38F2DD7D2B6FE2EF0084206E /* TWK_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD7C2B6FE2EF0084206E /* TWK_NewsUITests.swift */; };
 		38F2DD7F2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD7E2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift */; };
+		38F2DD902B6FE4A60084206E /* TWKAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD8F2B6FE4A60084206E /* TWKAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		38F2DD782B6FE2EF0084206E /* TWK NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TWK NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F2DD7C2B6FE2EF0084206E /* TWK_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWK_NewsUITests.swift; sourceTree = "<group>"; };
 		38F2DD7E2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWK_NewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38F2DD8F2B6FE4A60084206E /* TWKAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWKAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,10 @@
 		38F2DD5F2B6FE2ED0084206E /* TWK News */ = {
 			isa = PBXGroup;
 			children = (
-				38F2DD602B6FE2ED0084206E /* TWK_NewsApp.swift */,
-				38F2DD622B6FE2ED0084206E /* ContentView.swift */,
-				38F2DD642B6FE2EF0084206E /* Assets.xcassets */,
+				38F2DD8B2B6FE41D0084206E /* App */,
+				38F2DD8C2B6FE4210084206E /* Core */,
+				38F2DD8D2B6FE4320084206E /* Extension */,
+				38F2DD8E2B6FE44C0084206E /* Resources */,
 				38F2DD662B6FE2EF0084206E /* TWK_News.entitlements */,
 				38F2DD672B6FE2EF0084206E /* Preview Content */,
 			);
@@ -127,6 +130,46 @@
 				38F2DD7E2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift */,
 			);
 			path = "TWK NewsUITests";
+			sourceTree = "<group>";
+		};
+		38F2DD8B2B6FE41D0084206E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				38F2DD602B6FE2ED0084206E /* TWK_NewsApp.swift */,
+				38F2DD8F2B6FE4A60084206E /* TWKAppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		38F2DD8C2B6FE4210084206E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				38F2DD912B6FEB500084206E /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		38F2DD8D2B6FE4320084206E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		38F2DD8E2B6FE44C0084206E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38F2DD642B6FE2EF0084206E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38F2DD912B6FEB500084206E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				38F2DD622B6FE2ED0084206E /* ContentView.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +304,7 @@
 			files = (
 				38F2DD632B6FE2ED0084206E /* ContentView.swift in Sources */,
 				38F2DD612B6FE2ED0084206E /* TWK_NewsApp.swift in Sources */,
+				38F2DD902B6FE4A60084206E /* TWKAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
