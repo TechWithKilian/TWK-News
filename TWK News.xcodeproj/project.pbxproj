@@ -15,7 +15,6 @@
 		38F2DD7D2B6FE2EF0084206E /* TWK_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD7C2B6FE2EF0084206E /* TWK_NewsUITests.swift */; };
 		38F2DD7F2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD7E2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift */; };
 		38F2DD902B6FE4A60084206E /* TWKAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD8F2B6FE4A60084206E /* TWKAppDelegate.swift */; };
-		38F2DD942B700E5A0084206E /* SwiftFlex in Frameworks */ = {isa = PBXBuildFile; productRef = 38F2DD932B700E5A0084206E /* SwiftFlex */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38F2DD942B700E5A0084206E /* SwiftFlex in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +144,7 @@
 		38F2DD8C2B6FE4210084206E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				38F2DD952B70180E0084206E /* Home */,
 				38F2DD912B6FEB500084206E /* Root */,
 			);
 			path = Core;
@@ -174,6 +173,13 @@
 			path = Root;
 			sourceTree = "<group>";
 		};
+		38F2DD952B70180E0084206E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38F2DD822B6FE2EF0084206E /* Build configuration list for PBXNativeTarget "TWK News" */;
 			buildPhases = (
+				38F2DD962B7161340084206E /* Swiftlint Check */,
 				38F2DD592B6FE2ED0084206E /* Sources */,
 				38F2DD5A2B6FE2ED0084206E /* Frameworks */,
 				38F2DD5B2B6FE2ED0084206E /* Resources */,
@@ -191,7 +198,6 @@
 			);
 			name = "TWK News";
 			packageProductDependencies = (
-				38F2DD932B700E5A0084206E /* SwiftFlex */,
 			);
 			productName = "TWK News";
 			productReference = 38F2DD5D2B6FE2ED0084206E /* TWK News.app */;
@@ -305,6 +311,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38F2DD962B7161340084206E /* Swiftlint Check */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swiftlint Check";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38F2DD592B6FE2ED0084206E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -386,7 +413,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -449,7 +476,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -684,14 +711,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		38F2DD932B700E5A0084206E /* SwiftFlex */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38F2DD922B700E5A0084206E /* XCRemoteSwiftPackageReference "SwiftFlex" */;
-			productName = SwiftFlex;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 38F2DD552B6FE2ED0084206E /* Project object */;
 }
