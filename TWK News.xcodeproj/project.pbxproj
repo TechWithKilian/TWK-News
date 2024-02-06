@@ -15,6 +15,8 @@
 		38F2DD7D2B6FE2EF0084206E /* TWK_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD7C2B6FE2EF0084206E /* TWK_NewsUITests.swift */; };
 		38F2DD7F2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD7E2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift */; };
 		38F2DD902B6FE4A60084206E /* TWKAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD8F2B6FE4A60084206E /* TWKAppDelegate.swift */; };
+		38F2DD982B72BF0E0084206E /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD972B72BF0D0084206E /* SideBarView.swift */; };
+		38F2DD9A2B72C15A0084206E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2DD992B72C15A0084206E /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		38F2DD7C2B6FE2EF0084206E /* TWK_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWK_NewsUITests.swift; sourceTree = "<group>"; };
 		38F2DD7E2B6FE2EF0084206E /* TWK_NewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWK_NewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		38F2DD8F2B6FE4A60084206E /* TWKAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWKAppDelegate.swift; sourceTree = "<group>"; };
+		38F2DD972B72BF0D0084206E /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		38F2DD992B72C15A0084206E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 		38F2DD952B70180E0084206E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				38F2DD972B72BF0D0084206E /* SideBarView.swift */,
+				38F2DD992B72C15A0084206E /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -338,7 +344,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				38F2DD632B6FE2ED0084206E /* ContentView.swift in Sources */,
+				38F2DD982B72BF0E0084206E /* SideBarView.swift in Sources */,
 				38F2DD612B6FE2ED0084206E /* TWK_NewsApp.swift in Sources */,
+				38F2DD9A2B72C15A0084206E /* HomeView.swift in Sources */,
 				38F2DD902B6FE4A60084206E /* TWKAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
