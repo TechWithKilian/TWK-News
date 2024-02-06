@@ -13,7 +13,7 @@ struct SideBarView: View {
             List {
                 Section {
                     NavigationLink {
-                                            
+                        HomeView()
                     } label: {
                         Label("Discover", systemImage: "star")
                     }
@@ -114,7 +114,12 @@ struct SideBarView: View {
                     NavigationLink {
                                             
                     } label: {
-                        Label("Tech Talks", systemImage: "")
+                        Label("Tech Talks", systemImage: "music.mic")
+                    }
+                    NavigationLink {
+                                            
+                    } label: {
+                        Label("TWC Podcast", systemImage: "music.mic")
                     }
                     NavigationLink {
                                             
@@ -124,7 +129,7 @@ struct SideBarView: View {
                 }
             }
             .listStyle(SidebarListStyle())
-            .navigationTitle("News")
+            .navigationTitle("TWK News")
             .navigationBarTitleDisplayMode(.large)
             
             HomeView()
